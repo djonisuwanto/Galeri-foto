@@ -1,11 +1,8 @@
 // Daftar nama file foto (sesuaikan dengan nama file di folder)
 const photos = [
-    'img001.jpg',
-    'img002.jpg',
-    'img003.jpg',
-    'img004.jpg',
-    'img005.jpg',
-    'img006.jpg',
+    'foto11.jpg',
+    'foto12.jpg',
+    
     // Tambahkan nama file lain sesuai foto yang ada
 ];
 
@@ -52,4 +49,5 @@ window.changeImage = function(direction) {
     }
     
     modalImg.src = `foto/full/${photos[currentIndex]}`;
+
 };
